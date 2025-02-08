@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Tags &ndash; My New Hugo Site</title>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Posts &ndash; My New Hugo Site</title>
 <meta name="description" content="A blog about me and stuff that me likes">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,7 @@
 <link rel="manifest" href="http://localhost:1313/site.webmanifest">
 
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/index.xml" title="My New Hugo Site">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/post/index.xml" title="My New Hugo Site">
 
 </head>
 
@@ -41,7 +41,7 @@
     
     <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/about/" title="">About</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/post/" title="Posts">Posts</a></li>
+    <li class="main-nav__item"><a class="nav-main-item active" href="http://localhost:1313/post/" title="Posts">Posts</a></li>
     
     </ul>
 </nav>
@@ -49,38 +49,82 @@
 </header>
 
             <section class="page__body">
-    <h1 id="tags">Tags</h1>
+    <header class="content__header">
+        <h1>Posts</h1>
+        
+    </header>
 
     
+    <article class="post">
+        <header class="post__header">
+            <h1><a href="http://localhost:1313/post/markdown-syntax/">Markdown Syntax Guide</a></h1>
+            <p class="post__meta">
+                Hugo Authors,
+                <span class="date">11 March 2019</span>
+            </p>
+        </header>
 
-    <ul>
+        <section class="post__summary">
+            <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+        </section>
+    </article>
     
-        <li><a href="http://localhost:1313/tags/css/">Css</a></li>
+    <article class="post">
+        <header class="post__header">
+            <h1><a href="http://localhost:1313/post/rich-content/">Rich Content</a></h1>
+            <p class="post__meta">
+                Hugo Authors,
+                <span class="date">10 March 2019</span>
+            </p>
+        </header>
 
+        <section class="post__summary">
+            <p>Hugo ships with several <a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes">Built-in Shortcodes</a> for rich content, along with a <a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
+        </section>
+    </article>
     
-        <li><a href="http://localhost:1313/tags/html/">Html</a></li>
+    <article class="post">
+        <header class="post__header">
+            <h1><a href="http://localhost:1313/post/placeholder-text/">Placeholder Text</a></h1>
+            <p class="post__meta">
+                Hugo Authors,
+                <span class="date">9 March 2019</span>
+            </p>
+        </header>
 
+        <section class="post__summary">
+            <p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>
+        </section>
+    </article>
     
-        <li><a href="http://localhost:1313/tags/index/">Index</a></li>
+    <article class="post">
+        <header class="post__header">
+            <h1><a href="http://localhost:1313/post/math-typesetting/">Math Typesetting</a></h1>
+            <p class="post__meta">
+                Hugo Authors,
+                <span class="date">8 March 2019</span>
+            </p>
+        </header>
 
+        <section class="post__summary">
+            <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+        </section>
+    </article>
     
-        <li><a href="http://localhost:1313/tags/markdown/">Markdown</a></li>
+    <article class="post">
+        <header class="post__header">
+            <h1><a href="http://localhost:1313/post/emoji-support/">Emoji Support</a></h1>
+            <p class="post__meta">
+                Hugo Authors,
+                <span class="date">5 March 2019</span>
+            </p>
+        </header>
 
+        <section class="post__summary">
+            <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+        </section>
+    </article>
     
-        <li><a href="http://localhost:1313/tags/privacy/">Privacy</a></li>
-
-    
-        <li><a href="http://localhost:1313/tags/shortcodes/">Shortcodes</a></li>
-
-    
-        <li><a href="http://localhost:1313/tags/text/">Text</a></li>
-
-    
-        <li><a href="http://localhost:1313/tags/emoji/">Emoji</a></li>
-
-    
-    </ul>
-
 
             </section>
 
@@ -112,7 +156,7 @@
 </div>
                 <hr>
                 <div class="aside__content">
-    
+    <p>Example posts demonstrating hugo&#39;s markup features</p>
 
                 </div>
             </section>
@@ -126,6 +170,8 @@
     
       
     
+      
+        
       
     
     
