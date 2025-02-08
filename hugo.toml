@@ -2,3 +2,8 @@ baseURL = 'https://federico-maresca.github.io'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'risotto'
+
+[params]
+    profilePicture = "images/profile.png"
+    github = "https://github.com/Federico-Maresca"
+    linkedin = "https://www.linkedin.com/in/federico-maresca/"
